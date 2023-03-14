@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="titleBar">Tic Tac Toe </h1>
+    <h2 id="turnHeading">X's Turn</h2>
+    <button id="resetButton">RESET</button>
+    <div id="gameBoard" class="boxX">
+        <div class="rows">
+            <div data-index="1" class="gameBox bl bt"></div>
+            <div data-index="2" class="gameBox bt"></div>
+            <div data-index="3" class="gameBox bt br"></div>
+        </div>
+        <div class="rows">
+            <div data-index="4" class="gameBox bl"></div>
+            <div data-index="5" class="gameBox"></div>
+            <div data-index="6" class="gameBox br"></div>
+        </div>
+        <div class="rows">
+            <div data-index="7" class="gameBox bb bl"></div>
+            <div data-index="8" class="gameBox bb "></div>
+            <div data-index="9" class="gameBox bb br"></div>
+        </div>
+    </div>
+
+    <script src="./main.js" defer></script>
+</body>
+</html>
